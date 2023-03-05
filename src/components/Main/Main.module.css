@@ -1,0 +1,8 @@
+.main {
+    border: 10px solid #bdbdbd;
+    background-color: #bdbdbd;
+    box-shadow: 1px 1px 0px 1px #7b7b7b, -1px -1px 0px 1px #fff;
+    transform: scale(1.5);
+    display: flex;
+    flex-direction: column;
+}

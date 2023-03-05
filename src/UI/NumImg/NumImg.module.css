@@ -1,0 +1,48 @@
+.sprite_num {
+    width: var(--num-width);
+    height: var(--num-height);
+    float: left;
+    background: url('../../assets/sprites.png') no-repeat;
+    background-position: -0px var(--num-y-pos);
+    background-size: var(--sprite-bg-size);
+}
+
+.sprite_num_1 {
+    background-position: -0px var(--num-y-pos);
+}
+
+.sprite_num_2 {
+    background-position: calc(-1 * var(--num-width)) var(--num-y-pos);
+}
+
+.sprite_num_3 {
+    background-position: calc(-2 * var(--num-width)) var(--num-y-pos);
+}
+
+.sprite_num_4 {
+    background-position: calc(-3 * var(--num-width)) var(--num-y-pos);
+}
+
+.sprite_num_5 {
+    background-position: calc(-4 * var(--num-width)) var(--num-y-pos);
+}
+
+.sprite_num_6 {
+    background-position: calc(-5 * var(--num-width)) var(--num-y-pos);
+}
+
+.sprite_num_7 {
+    background-position: calc(-6 * var(--num-width)) var(--num-y-pos);
+}
+
+.sprite_num_8 {
+    background-position: calc(-7 * var(--num-width)) var(--num-y-pos);
+}
+
+.sprite_num_9 {
+    background-position: calc(-8 * var(--num-width)) var(--num-y-pos);
+}
+
+.sprite_num_0 {
+    background-position: calc(-9 * var(--num-width)) var(--num-y-pos);
+}

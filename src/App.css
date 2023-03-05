@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  background-color: blue;
 }
 
-.App-link {
-  color: #61dafb;
+:root {
+  /* Sprite */
+  --sprite-bg-size: auto;
+  /* Cell */
+  --cell-width: 16px;
+  --cell-height: 16px;
+  --cell-y-pos: -51px;
+  /* Count */
+  --count-width: 16px;
+  --count-height: 16px;
+  --count-y-pos: -68px;
+  /* Number */
+  --num-width: 14px;
+  --num-height: 24px;
+  --num-y-pos: .5px;
+  /* Smile */
+  --smile-width: 27px;
+  --smile-height: 27px;
+  --smile-y-pos: -24px;
+  /* Size board */
+  --size-board: 16;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border {
+  padding: 1.5px 1.5px;
+  border: 10px solid #bdbdbd;
+  box-shadow: 1px 1px 0px 1px #7b7b7b, -1px -1px 0px 1px #fff, inset 3px 3px 0px 0px #7b7b7b, inset -3px -3px 0px 0px #fff;
 }

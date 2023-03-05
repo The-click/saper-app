@@ -1,0 +1,28 @@
+.sprite_smile {
+    width: var(--smile-width);
+    height: var(--smile-height);
+    float: left;
+    background: url('../../assets/sprites.png') no-repeat;
+    background-position: -0px var(--smile-y-pos);
+    background-size: var(--sprite-bg-size);
+}
+
+.sprite_smile_def {
+    background-position: 0 var(--smile-y-pos);
+}
+
+.sprite_smile_press {
+    background-position: calc(-1 * var(--smile-width)) var(--smile-y-pos);
+}
+
+.sprite_smile_afraid {
+    background-position: calc(-2 * var(--smile-width)) var(--smile-y-pos);
+}
+
+.sprite_smile_cool {
+    background-position: calc(-3 * var(--smile-width)) var(--smile-y-pos);
+}
+
+.sprite_smile_death {
+    background-position: calc(-4 * var(--smile-width)) var(--smile-y-pos);
+}

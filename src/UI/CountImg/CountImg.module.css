@@ -1,0 +1,40 @@
+.sprite_count {
+    width: var(--count-width);
+    height: var(--count-height);
+    float: left;
+    background: url('../../assets/sprites.png') no-repeat;
+    background-position: -0px var(--count-y-pos);
+    background-size: calc(var(--sprite-bg-size) * 1.5);
+}
+
+.sprite_count_1 {
+    background-position: -0px var(--count-y-pos);
+}
+
+.sprite_count_2 {
+    background-position: calc(-1 * var(--count-width) - 1px) var(--count-y-pos);
+}
+
+.sprite_count_3 {
+    background-position: calc(-2 * var(--count-width) - 2px) var(--count-y-pos);
+}
+
+.sprite_count_4 {
+    background-position: calc(-3 * var(--count-width) - 3px) var(--count-y-pos);
+}
+
+.sprite_count_5 {
+    background-position: calc(-4 * var(--count-width) - 4px) var(--count-y-pos);
+}
+
+.sprite_count_6 {
+    background-position: calc(-5 * var(--count-width) - 5px) var(--count-y-pos);
+}
+
+.sprite_count_7 {
+    background-position: calc(-6 * var(--count-width) - 6px) var(--count-y-pos);
+}
+
+.sprite_count_8 {
+    background-position: calc(-7 * var(--count-width) - 7px) var(--count-y-pos);
+}

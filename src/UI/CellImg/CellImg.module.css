@@ -1,0 +1,40 @@
+.sprite_cell {
+    width: var(--cell-width);
+    height: var(--cell-height);
+    float: left;
+    background: url('../../assets/sprites.png') no-repeat;
+    background-position: -0px var(--cell-y-pos);
+    background-size: calc(var(--sprite-bg-size) * 1.5);
+}
+
+.sprite_cell_close {
+    background-position: 0 var(--cell-y-pos);
+}
+
+.sprite_cell_open {
+    background-position: calc(-1 * var(--cell-width) - 1px) var(--cell-y-pos);
+}
+
+.sprite_cell_flag {
+    background-position: calc(-2 * var(--cell-width) - 2px) var(--cell-y-pos);
+}
+
+.sprite_cell_quest {
+    background-position: calc(-3 * var(--cell-width) - 3px) var(--cell-y-pos);
+}
+
+.sprite_cell_quest_press {
+    background-position: calc(-4 * var(--cell-width) - 4px) var(--cell-y-pos);
+}
+
+.sprite_cell_bomb {
+    background-position: calc(-5 * var(--cell-width) - 5px) var(--cell-y-pos);
+}
+
+.sprite_cell_bomb_red {
+    background-position: calc(-6 * var(--cell-width) - 6px) var(--cell-y-pos);
+}
+
+.sprite_cell_bomb_cross {
+    background-position: calc(-7 * var(--cell-width) - 7px) var(--cell-y-pos);
+}
